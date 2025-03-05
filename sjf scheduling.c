@@ -33,7 +33,7 @@ void main()
      }
      printf("    PROCESS\t BURST TIME\t WAITING TIME\t TURNAROUND TIME");
      for(i=0;i<n;i++)
-      printf("\n\tP%d\t\t%d\t\t%d\t\t%d",i,b[i],wt[i],tat[i]);
+      printf("\n\tP%d\t\t%d\t\t%d\t\t%d",p[i],b[i],wt[i],tat[i]);
       printf("\nAverage Waiting Time: %f",wtavg/n);
       printf("\nAverage Turnaround Time: %f",tatavg/n); 
 }
